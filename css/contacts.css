@@ -80,27 +80,17 @@ header .head_contacts .phone_div .phone_text:hover, header .head_contacts .phone
 }
 @media (min-width: 450px) {
   header .head_contacts {
-    flex-direction: row;
-    -moz-column-gap: 10px;
-         column-gap: 10px;
+    row-gap: 10px;
   }
 }
 @media (min-width: 550px) {
   header .head_contacts {
-    -moz-column-gap: 20px;
-         column-gap: 20px;
-  }
-}
-@media (min-width: 700px) {
-  header .head_contacts {
-    -moz-column-gap: 25px;
-         column-gap: 25px;
+    row-gap: 20px;
   }
 }
 @media (min-width: 900px) {
   header .head_contacts {
-    -moz-column-gap: 35px;
-         column-gap: 35px;
+    row-gap: 25px;
   }
 }
 header .head_flex {
