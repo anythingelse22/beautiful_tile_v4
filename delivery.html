@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Тут то, что дисплеит гугл?">
+	<title>Delivery</title>
+
+	<link rel="stylesheet" href="css/delivery.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	
+	<!-- Header -->
+	<header>
+
+		<div class="head_contacts">
+			<div class="phone_div">
+				<img class="phone_img" src="imgs/misc/phone.png">
+				<a id="phone_id" class="phone_text"></a>
+			</div>
+			<div class="wa_div">
+				<img class="wa_img" src="imgs/misc/whats.png">
+				<a id="wa_id" class="wa_text"></a>
+			</div>
+		</div>
+
+		<div class="head_flex">
+			<div class="logo_cont">
+				<a class="logo_link" href="index.html">
+					<img src="imgs/logo.png">
+				</a>
+			</div>
+
+			<div class="head_menu" onclick="menu_click()">
+				<span class="menu_line"></span>
+				<span class="menu_line"></span>
+				<span class="menu_line"></span>
+			</div>
+
+		</div>
+
+		<hr class="head_line">
+
+		<nav class="menu_cont">
+			<ul class="navmenu">
+				<li>
+					<a id="a_about" href="about.html">
+						О нас
+					</a>
+				</li>
+				<li>
+					<a id="a_delivery" href="delivery.html">
+						Доставка
+					</a>
+				</li>
+				<li>
+					<a id="a_catalog" href="catalog.html">
+						Каталог
+					</a>
+				</li>
+				<li>
+					<a id="a_contact" href="contacts.html">
+						Контакты
+					</a>
+				</li>
+				<li>
+					<a id="a_gallery" href="gallery.html">
+						Галерея
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<!--
+	<form action="https://formspree.io/f/xknydaal" method="POST">
+		<label>
+			Your email:
+			<input type="email" name="email">
+		</label>
+		<label>
+			Your message:
+			<textarea name="message"></textarea>
+		</label>
+		<button type="submit">Send</button>
+	</form>
+	-->
+
+	<!-- Footer -->
+	<footer>
+		<div class="footer_grid">
+			<a href="index.html">
+				Главная
+			</a>
+			<a href="about.html">
+				О нас
+			</a>
+			<a href="delivery.html">
+				Доставка
+			</a>
+			<a href="catalog.html">
+				Каталог
+			</a>
+			<a href="contacts.html">
+				Контакты
+			</a>
+			<a href="gallery.html">
+				Галерея
+			</a>
+		</div>
+	</footer>
+
+	<script src="js/head_menu.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
